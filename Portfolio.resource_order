@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -16,17 +16,18 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
-    {"name":"main_obj","order":3,"path":"objects/main_obj/main_obj.yy",},
-    {"name":"desription_obj","order":6,"path":"objects/desription_obj/desription_obj.yy",},
+  "ResourceOrderSettings":[
+    {"name":"description_fnt","order":1,"path":"fonts/description_fnt/description_fnt.yy",},
     {"name":"collider_parent_obj","order":1,"path":"objects/collider_parent_obj/collider_parent_obj.yy",},
-    {"name":"description_frame_spr","order":3,"path":"sprites/description_frame_spr/description_frame_spr.yy",},
-    {"name":"wall_obj","order":5,"path":"objects/wall_obj/wall_obj.yy",},
+    {"name":"desription_obj","order":6,"path":"objects/desription_obj/desription_obj.yy",},
     {"name":"gam_jams_col_obj","order":7,"path":"objects/gam_jams_col_obj/gam_jams_col_obj.yy",},
     {"name":"machine_learning_col_obj","order":4,"path":"objects/machine_learning_col_obj/machine_learning_col_obj.yy",},
+    {"name":"main_obj","order":3,"path":"objects/main_obj/main_obj.yy",},
     {"name":"node_par_obj","order":2,"path":"objects/node_par_obj/node_par_obj.yy",},
-    {"name":"placeholder_spr","order":2,"path":"sprites/placeholder_spr/placeholder_spr.yy",},
-    {"name":"description_fnt","order":1,"path":"fonts/description_fnt/description_fnt.yy",},
+    {"name":"wall_obj","order":5,"path":"objects/wall_obj/wall_obj.yy",},
+    {"name":"description_frame_spr","order":3,"path":"sprites/description_frame_spr/description_frame_spr.yy",},
     {"name":"node_spr","order":1,"path":"sprites/node_spr/node_spr.yy",},
+    {"name":"placeholder_spr","order":2,"path":"sprites/placeholder_spr/placeholder_spr.yy",},
+    {"name":"Sprite5","order":16,"path":"sprites/Sprite5/Sprite5.yy",},
   ],
 }

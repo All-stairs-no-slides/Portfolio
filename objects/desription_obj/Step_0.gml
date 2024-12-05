@@ -4,7 +4,7 @@ if(node.show_description)
 	if(!vis_pos)
 	{
 		vis_pos = true
-		x = (node.x - (sprite_width + 32)) - 100
+		x = (node.x - (sprite_width + 32)) - (100)
 		y = node.y
 	}
 } else {
