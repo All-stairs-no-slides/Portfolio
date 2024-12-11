@@ -35,6 +35,12 @@
     {"$GMObjectProperty":"v1","%Name":"collection","filters":[],"listItems":[],"multiselect":false,"name":"collection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"title","filters":[],"listItems":[],"multiselect":false,"name":"title","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"description","filters":[],"listItems":[],"multiselect":false,"name":"description","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"selected","filters":[],"listItems":[],"multiselect":false,"name":"selected","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"more_details","filters":[],"listItems":[
+        "\"Item 0df  ggf jhg jhg jh gjhg jh hjh gjh gjh gjh gj hgj hg jhg jhg jhg jhg jhg jh gj hg jh jhg jh gjh gj hg jhg jhkhjjg hjkg jh gd fsd td tyf uio oiho iu oihk jhj hgj hgghg fytd yut rfiug oiuh kujbh uyv uyg jb iub jhb ygg jhg\"",
+        "\"Item 1\"",
+        "\"Item 2\"",
+      ],"multiselect":true,"name":"more_details","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item 0df  ggf jhg jhg jh gjhg jh hjh gjh gjh gjh gj hgj hg jhg jhg jhg jhg jhg jh gj hg jh jhg jh gjh gj hg jhg jhkhjjg hjkg jh gd fsd td tyf uio oiho iu oihk jhj hgj hgghg fytd yut rfiug oiuh kujbh uyv uyg jb iub jhb ygg jhg\", \"Item 1\", \"Item 2\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

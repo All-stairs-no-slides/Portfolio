@@ -32,5 +32,5 @@
     "path":"sprites/placeholder_spr/placeholder_spr.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
