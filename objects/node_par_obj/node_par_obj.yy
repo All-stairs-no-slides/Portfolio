@@ -38,9 +38,9 @@
     {"$GMObjectProperty":"v1","%Name":"selected","filters":[],"listItems":[],"multiselect":false,"name":"selected","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"more_details","filters":[],"listItems":[
         "\"Item 0df  ggf jhg jhg jh gjhg jh hjh gjh gjh gjh gj hgj hg jhg jhg jhg jhg jhg jh gj hg jh jhg jh gjh gj hg jhg jhkhjjg hjkg jh gd fsd td tyf uio oiho iu oihk jhj hgj hgghg fytd yut rfiug oiuh kujbh uyv uyg jb iub jhb ygg jhg\"",
-        "\"Item 1\"",
+        "\"ashgsabf sajfhaskj hkja hskdjh ajh sajh asj hkj ashkjdhakjs hkj kj shkj hk jshkj hkj hk jhkjh kj j kj hkjh g yg uyu hg jhgjh gkjghf jkghfg jkhg jkhg jkhg jkhg kjh gjh gjk hgj hg jhg kjhg kjh gjkh gjk hgk\"",
         "\"Item 2\"",
-      ],"multiselect":true,"name":"more_details","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item 0df  ggf jhg jhg jh gjhg jh hjh gjh gjh gjh gj hgj hg jhg jhg jhg jhg jhg jh gj hg jh jhg jh gjh gj hg jhg jhkhjjg hjkg jh gd fsd td tyf uio oiho iu oihk jhj hgj hgghg fytd yut rfiug oiuh kujbh uyv uyg jb iub jhb ygg jhg\", \"Item 1\", \"Item 2\"","varType":6,},
+      ],"multiselect":true,"name":"more_details","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item 0df  ggf jhg jhg jh gjhg jh hjh gjh gjh gjh gj hgj hg jhg jhg jhg jhg jhg jh gj hg jh jhg jh gjh gj hg jhg jhkhjjg hjkg jh gd fsd td tyf uio oiho iu oihk jhj hgj hgghg fytd yut rfiug oiuh kujbh uyv uyg jb iub jhb ygg jhg\", \"ashgsabf sajfhaskj hkja hskdjh ajh sajh asj hkj ashkjdhakjs hkj kj shkj hk jshkj hkj hk jhkjh kj j kj hkjh g yg uyu hg jhgjh gkjghf jkghfg jkhg jkhg jkhg jkhg kjh gjh gjk hgj hg jhg kjhg kjh gjkh gjk hgk\", \"Item 2\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
