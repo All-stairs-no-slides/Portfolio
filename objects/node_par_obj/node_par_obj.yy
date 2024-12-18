@@ -41,6 +41,11 @@
         "\"ashgsabf sajfhaskj hkja hskdjh ajh sajh asj hkj ashkjdhakjs hkj kj shkj hk jshkj hkj hk jhkjh kj j kj hkjh g yg uyu hg jhgjh gkjghf jkghfg jkhg jkhg jkhg jkhg kjh gjh gjk hgj hg jhg kjhg kjh gjkh gjk hgk\"",
         "\"Item 2\"",
       ],"multiselect":true,"name":"more_details","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item 0df  ggf jhg jhg jh gjhg jh hjh gjh gjh gjh gj hgj hg jhg jhg jhg jhg jhg jh gj hg jh jhg jh gjh gj hg jhg jhkhjjg hjkg jh gd fsd td tyf uio oiho iu oihk jhj hgj hgghg fytd yut rfiug oiuh kujbh uyv uyg jb iub jhb ygg jhg\", \"ashgsabf sajfhaskj hkja hskdjh ajh sajh asj hkj ashkjdhakjs hkj kj shkj hk jshkj hkj hk jhkjh kj j kj hkjh g yg uyu hg jhgjh gkjghf jkghfg jkhg jkhg jkhg jkhg kjh gjh gjk hgj hg jhg kjhg kjh gjkh gjk hgk\", \"Item 2\"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"details_titles","filters":[],"listItems":[
+        "\"Item 0\"",
+        "\"Item 1\"",
+        "\"Item 2\"",
+      ],"multiselect":true,"name":"details_titles","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Item 0\", \"Item 1\", \"Item 2\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -9,6 +9,6 @@ draw_set_font(description_fnt)
 draw_text_ext(x + 25, y + title_height + 20, node.description, 15, 150)
 
 if(node.selected){
+
 	draw_sprite(Press_E_spr, 0, x + 50, y + title_height + string_height_ext(node.description, 15, 150) + 20)
-	
 }
