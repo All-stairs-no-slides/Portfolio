@@ -10,6 +10,7 @@ if(main.more_details && selected == true){
 		draw_line_width_color(x, y + y_inters[0], x, y - y_inters[0], 3, shade, shade)
 		draw_set_font(description_fnt)
 		draw_text_ext(x - 200, y - y_inters[0] + 3, more_details[0], 15, 150) 
+		draw_set_font(More_details_title_fnt)
 		draw_text_ext(x - (230 + string_width(details_titles[0])), y - y_inters[0] + 3, details_titles[0], 15, 150) 
 		
 	}
@@ -29,6 +30,7 @@ if(main.more_details && selected == true){
 			}
 			
 			draw_text_ext(x - 200, (y - y_inters[0]) + y_inters[_i] + 3, more_details[_i], 15, 150) 
+			draw_set_font(More_details_title_fnt)
 			draw_text_ext(x - (230 + string_width(details_titles[_i])), (y - y_inters[0]) + y_inters[_i] + 3, details_titles[_i], 15, 150) 
 		}
 		

@@ -35,7 +35,7 @@
   "name":"Portfolio",
   "resources":[
     {"id":{"name":"description_fnt","path":"fonts/description_fnt/description_fnt.yy",},},
-    {"id":{"name":"More_deta","path":"fonts/More_deta/More_deta.yy",},},
+    {"id":{"name":"More_details_title_fnt","path":"fonts/More_details_title_fnt/More_details_title_fnt.yy",},},
     {"id":{"name":"title_fnt","path":"fonts/title_fnt/title_fnt.yy",},},
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
     {"id":{"name":"collider_parent_obj","path":"objects/collider_parent_obj/collider_parent_obj.yy",},},

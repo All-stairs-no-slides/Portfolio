@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"More_deta",
+  "%Name":"More_details_title_fnt",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":14,
@@ -189,7 +189,7 @@
   "last":0,
   "lineHeight":18,
   "maintainGms1Font":false,
-  "name":"More_deta",
+  "name":"More_details_title_fnt",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

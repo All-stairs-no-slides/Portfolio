@@ -18,7 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"description_fnt","order":1,"path":"fonts/description_fnt/description_fnt.yy",},
-    {"name":"More_deta","order":2,"path":"fonts/More_deta/More_deta.yy",},
+    {"name":"More_details_title_fnt","order":2,"path":"fonts/More_details_title_fnt/More_details_title_fnt.yy",},
     {"name":"collider_parent_obj","order":1,"path":"objects/collider_parent_obj/collider_parent_obj.yy",},
     {"name":"desription_obj","order":6,"path":"objects/desription_obj/desription_obj.yy",},
     {"name":"For_our_continuation","order":8,"path":"objects/For_our_continuation/For_our_continuation.yy",},
