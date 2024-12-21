@@ -12,7 +12,6 @@
     {"name":"inst_64A7D5C5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1A0BC91D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_653E3F08","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_28C8FDFD","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +22,6 @@
         {"$GMRInstance":"v1","%Name":"inst_64A7D5C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_64A7D5C5","objectId":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":23.0,"scaleY":1.0,"x":736.0,"y":1504.0,},
         {"$GMRInstance":"v1","%Name":"inst_1A0BC91D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A0BC91D","objectId":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":23.5,"x":32.0,"y":736.0,},
         {"$GMRInstance":"v1","%Name":"inst_653E3F08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_653E3F08","objectId":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":23.0,"scaleY":1.0,"x":768.0,"y":0.0,},
-        {"$GMRInstance":"v1","%Name":"inst_28C8FDFD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28C8FDFD","objectId":{"name":"This_portfolio","path":"objects/This_portfolio/This_portfolio.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":800.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Effect_1","depth":100,"effectEnabled":true,"effectType":"_filter_gradient","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
         {"name":"g_GradientColour1","type":1,"value":"#FF33001F",},

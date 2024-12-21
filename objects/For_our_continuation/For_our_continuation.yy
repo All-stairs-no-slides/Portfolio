@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"This is a game that I started creating for a Pirate software game jam.",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"nodes",
+    "path":"folders/Objects/nodes.yy",
   },
   "parentObjectId":{
     "name":"node_par_obj",

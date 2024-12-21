@@ -1,3 +1,8 @@
+more_details = ["TES CONTENT 1",
+				"hi"]
+details_titles = ["TITLE1", "NOU"]
+// $$ BELOW IS NON-OVERIDDEN STUFF $$
+// initialise variables
 show_description = false
 original_pos = false
 // this first frame variable is to make sure that when selected nodeds are switched the new selected node does not trigger its switching state due to it being later in the execution order

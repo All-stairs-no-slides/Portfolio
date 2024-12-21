@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"An application designed using my own physics. It is a enclosed world with no snapping grid for its elements, where everything is calculated as it occurs. It uses my own physics. It was a good tool for learning how to represent text in an enclosed space without overflow.",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"nodes",
+    "path":"folders/Objects/nodes.yy",
   },
   "parentObjectId":{
     "name":"node_par_obj",
