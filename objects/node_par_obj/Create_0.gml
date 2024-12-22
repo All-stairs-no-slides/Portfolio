@@ -1,7 +1,5 @@
-more_details = ["TES CONTENT 1",
-				"hi"]
-details_titles = ["TITLE1", "NOU"]
-// $$ BELOW IS NON-OVERIDDEN STUFF $$
+// set more_details and details_titles are set before this is called in the inheritted events
+
 // initialise variables
 show_description = false
 original_pos = false
@@ -37,4 +35,3 @@ for(var _i = 1; _i < array_length(y_inters); _i++)
 	_increment += y_inters[_i]
 	y_inters[_i] = _increment
 }
-

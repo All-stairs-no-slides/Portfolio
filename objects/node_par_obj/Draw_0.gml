@@ -1,4 +1,5 @@
 draw_sprite_ext(sprite_index, image_index, x, y, 1, 1, 0, shade, 1)
+draw_set_font(description_fnt)
 draw_text_ext(x - (string_width_ext(title, 15, 25)/2), y + 32, title, 15, 25)
 
 if(main.more_details && selected == true){
@@ -14,8 +15,6 @@ if(main.more_details && selected == true){
 		draw_text_ext(x - (230 + string_width(details_titles[0])), y - y_inters[0] + 3, details_titles[0], 15, 150) 
 		
 	}
-	// set font before the loop
-	draw_set_font(description_fnt)
 	// seperate seperating lines
 	for(var _i = 1; _i < array_length(y_inters); _i++){
 		
@@ -28,7 +27,7 @@ if(main.more_details && selected == true){
 			{
 				break;
 			}
-			
+			draw_set_font(description_fnt)
 			draw_text_ext(x - 200, (y - y_inters[0]) + y_inters[_i] + 3, more_details[_i], 15, 150) 
 			draw_set_font(More_details_title_fnt)
 			draw_text_ext(x - (230 + string_width(details_titles[_i])), (y - y_inters[0]) + y_inters[_i] + 3, details_titles[_i], 15, 150) 
