@@ -25,6 +25,7 @@
     {"name":"For_our_continuation","order":2,"path":"objects/For_our_continuation/For_our_continuation.yy",},
     {"name":"main_obj","order":3,"path":"objects/main_obj/main_obj.yy",},
     {"name":"node_par_obj","order":1,"path":"objects/node_par_obj/node_par_obj.yy",},
+    {"name":"Sistafam","order":3,"path":"objects/Sistafam/Sistafam.yy",},
     {"name":"wall_obj","order":5,"path":"objects/wall_obj/wall_obj.yy",},
     {"name":"description_frame_spr","order":3,"path":"sprites/description_frame_spr/description_frame_spr.yy",},
     {"name":"node_spr","order":1,"path":"sprites/node_spr/node_spr.yy",},

@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"Portfolio",
   "resources":[
@@ -45,6 +45,7 @@
     {"id":{"name":"main_obj","path":"objects/main_obj/main_obj.yy",},},
     {"id":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},},
     {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
+    {"id":{"name":"Sistafam","path":"objects/Sistafam/Sistafam.yy",},},
     {"id":{"name":"This_portfolio","path":"objects/This_portfolio/This_portfolio.yy",},},
     {"id":{"name":"wall_obj","path":"objects/wall_obj/wall_obj.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
