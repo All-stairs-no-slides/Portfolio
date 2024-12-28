@@ -17,7 +17,8 @@ var _inc = false
 
 // switch selected node from this one on keypress
 if(main.selected_node == id && !firstframe){
-	if(keyboard_check_pressed(vk_right))
+	var _key_press = keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left)
+	if(_key_press != 0)
 	{
 		var _min_dist = infinity
 		var _current_id = false;
@@ -25,11 +26,12 @@ if(main.selected_node == id && !firstframe){
 		var _opened_nodes = []
 		for (var _i = 0; _i < instance_number(node_par_obj); _i++;)
 		{
-			
+			// dont check this instance
 			if(instance_find(node_par_obj,_i).id == id)
 			{
 				continue;
 			}
+			// add all nearby objects to the array
 			if(instance_find(node_par_obj,_i).show_description){
 				_opened_nodes[array_length(_opened_nodes)] = instance_find(node_par_obj,_i).id
 			}
@@ -37,8 +39,19 @@ if(main.selected_node == id && !firstframe){
 		for(var _i = 0; _i < array_length(_opened_nodes); _i++)
 		{
 			var _other_dir = point_direction(x, y, _opened_nodes[_i].x, _opened_nodes[_i].y)
-			if(_other_dir < 90 || _other_dir > 270)
+			if(_key_press == 1 && (_other_dir < 90 || _other_dir > 270))
 			{
+				// right keypress
+				// regular case where node is to the right of any other node
+				_max_dist = false
+				if(abs(x - _opened_nodes[_i].x) < _min_dist)
+				{
+					_min_dist = abs(x - _opened_nodes[_i].x)
+					_current_id = _opened_nodes[_i].id
+				}
+			} else if(_key_press == -1 && (_other_dir > 90 || _other_dir < 270))
+			{
+				// left keypress
 				// regular case where node is to the right of any other node
 				_max_dist = false
 				if(abs(x - _opened_nodes[_i].x) < _min_dist)
@@ -47,7 +60,7 @@ if(main.selected_node == id && !firstframe){
 					_current_id = _opened_nodes[_i].id
 				}
 			} else if(_max_dist != false){
-				// case where its the furthest to the right node
+				// case where its the furthest node (at this point which direction the node is in doesnt matter
 				if(abs(x - _opened_nodes[_i].x) > _max_dist)
 				{
 					_max_dist = abs(x - _opened_nodes[_i].x)
@@ -61,12 +74,6 @@ if(main.selected_node == id && !firstframe){
 		_current_id.selected = true
 		_current_id.firstframe = true
 	}
-	
-
-	//if(keyboard_check_pressed(vk_left))
-	//{
-
-	//}
 }
 firstframe = false
 // calculation of all forces from neaby insances
