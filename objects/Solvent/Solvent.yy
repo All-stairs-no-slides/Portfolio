@@ -8,7 +8,7 @@
   "name":"Solvent",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"shade","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FF1180FF",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Solvent is a game that revolves around its particle simulation. Within it liquids are simulated to freely allow for the player to creatively utilise for both manuverability and to attack their opponent.",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"title","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Solvent",},
   ],
   "parent":{

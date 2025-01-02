@@ -8,7 +8,7 @@
   "name":"Desert_Aussie",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"shade","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFF7D05",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"The desert Aussie is a very simple side scroller. within it the player controls two avatars at the same time to avoid obstacles in their path and get as far as possible before they lose all of their health.",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"title","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"The Desert Aussie",},
   ],
   "parent":{

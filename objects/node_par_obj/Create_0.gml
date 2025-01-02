@@ -3,6 +3,8 @@
 // initialise variables
 show_description = false
 original_pos = false
+text_width = 600
+
 // this first frame variable is to make sure that when selected nodeds are switched the new selected node does not trigger its switching state due to it being later in the execution order
 firstframe = false
 instance_create_depth(x, y, depth, desription_obj, 
@@ -25,7 +27,7 @@ y_inters = []
 for(var _i = 1; _i < array_length(more_details) + 1; _i++)
 {
 	draw_set_font(description_fnt)
-	y_inters[_i] = string_height_ext(more_details[_i - 1], 15, 150) + 5
+	y_inters[_i] = string_height_ext(more_details[_i - 1], 15, text_width) + 5
 	y_inters[0] += y_inters[_i] / 2
 }
 // go through the array from the second (the 1th) element till the last element and replace each one with a sum of itself and its prior elements
