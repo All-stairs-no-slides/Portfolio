@@ -18,7 +18,7 @@ var _inc = false
 // switch selected node from this one on keypress
 if(main.selected_node == id && !firstframe){
 	var _key_press = keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left)
-	if(_key_press != 0)
+	if(_key_press != 0 && !main.more_details)
 	{
 		var _min_dist = infinity
 		var _current_id = false;
@@ -68,11 +68,13 @@ if(main.selected_node == id && !firstframe){
 				}
 			}
 		}
-		
-		selected = false
-		main.selected_node = _current_id
-		_current_id.selected = true
-		_current_id.firstframe = true
+		// do the finalising changes only  if an adequate result has been found (otherwise keep the current selected node))
+		if(_current_id){
+			selected = false
+			main.selected_node = _current_id
+			_current_id.selected = true
+			_current_id.firstframe = true
+		}
 	}
 }
 firstframe = false
@@ -88,9 +90,6 @@ if(_forces > 0)
 			continue;
 		}
 		_inc = true
-		//show_debug_message( (1 - sqrt(sqr(x - _list[| _i].x) + sqr(y - _list[| _i].y)) / 100))
-		//show_debug_message(point_direction(_list[| _i].x, _list[| _i].y, x, y))
-		//show_debug_message("final: " + string(point_direction(_list[| _i].x, _list[| _i].y, x, y) * (1 - sqrt(sqr(x - _list[| _i].x) + sqr(y - _list[| _i].y)) / 100)))
 		_sum_force_dir += (point_direction(_list[| _i].x, _list[| _i].y, x, y) * ((1 - sqrt(sqr(x - _list[| _i].x) + sqr(y - _list[| _i].y))) / 100)) * 3
 	}
 	
@@ -159,12 +158,22 @@ if(y <= 0)
 	y =  1
 }
 
-// entering more details mode when the details arent aboout this node
-if(main.more_details && !selected && original_pos == false){
-	direction = point_direction(room_width/2, room_height/2, x, y)
-	speed = 15
-	// where the node was before it was flung to the edges so that it can return oce more details mode is exited
-	original_pos = [x, y]
+// animate movement for all nodes when more detyails is entered.
+if(main.more_details){
+	if(!selected && original_pos == false){
+		// for nodes that arent the selected one
+		direction = point_direction(room_width/2, room_height/2, x, y)
+		speed = 15
+	} else if(selected)
+	{
+		// the selected nodew will go towards and attach to the left side of the screen
+		direction = point_direction(x, y, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2))
+		speed = 5
+	}
+	if(original_pos == false){
+		// set an origin point so that when esc is presseds it can return
+		original_pos = [x, y]
+	}
 }
 // return to the original position one the more details windo is closed
 if(!main.more_details && original_pos != false)
@@ -173,8 +182,8 @@ if(!main.more_details && original_pos != false)
 	direction = point_direction(x, y, original_pos[0], original_pos[1])
 	speed = 5
 
-// once the original pos is reached stop entering this state
-if(abs(x - original_pos[0]) + abs(y - original_pos[1]) < 8)
+	// once the original pos is reached stop entering this state
+	if(abs(x - original_pos[0]) + abs(y - original_pos[1]) < 8)
 	{
 		original_pos = false
 	}
