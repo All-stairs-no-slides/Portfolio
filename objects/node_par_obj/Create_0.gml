@@ -3,7 +3,8 @@
 // initialise variables
 show_description = false
 original_pos = false
-text_width = 600
+text_width = 460
+more_details_title_width = 150
 
 // this first frame variable is to make sure that when selected nodeds are switched the new selected node does not trigger its switching state due to it being later in the execution order
 firstframe = false

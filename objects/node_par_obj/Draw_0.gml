@@ -11,9 +11,9 @@ if(main.more_details && selected == true){
 	} else {
 		draw_line_width_color(x, y + y_inters[0], x, y - y_inters[0], 3, shade, shade)
 		draw_set_font(description_fnt)
-		draw_text_ext(x + 35, y - y_inters[0] + 3, more_details[0], 15, 150) 
+		draw_text_ext(x + 35, y - y_inters[0] + 3, more_details[0], 15, text_width) 
 		draw_set_font(More_details_title_fnt)
-		draw_text_ext(x - (30 + string_width_ext(details_titles[0], 15, 150)), y - y_inters[0] + 3, details_titles[0], 15, 150) 
+		draw_text_ext(x - (30 + string_width_ext(details_titles[0], 15, more_details_title_width)), y - y_inters[0] + 3, details_titles[0], 15, more_details_title_width) 
 		
 	}
 	// seperate seperating lines
@@ -32,7 +32,7 @@ if(main.more_details && selected == true){
 			draw_set_font(description_fnt)
 			draw_text_ext(x + 35, (y - y_inters[0]) + y_inters[_i] + 3, more_details[_i], 15, text_width) 
 			draw_set_font(More_details_title_fnt)
-			draw_text_ext(x - (30 + string_width_ext(details_titles[_i], 15, text_width)), (y - y_inters[0]) + y_inters[_i] + 3, details_titles[_i], 15, text_width) 
+			draw_text_ext(x - (30 + string_width_ext(details_titles[_i], 15, more_details_title_width)), (y - y_inters[0]) + y_inters[_i] + 3, details_titles[_i], 15, more_details_title_width) 
 		}
 		
 	}

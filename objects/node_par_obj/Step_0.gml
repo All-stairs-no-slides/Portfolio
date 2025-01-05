@@ -166,9 +166,19 @@ if(main.more_details){
 		speed = 15
 	} else if(selected)
 	{
-		// the selected nodew will go towards and attach to the left side of the screen
-		direction = point_direction(x, y, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0]) / 2))
-		speed = 5
+		// use euclidean dist to snap too side
+		if(sqrt(sqr(abs(x - (player_inst.x))) + sqr(abs(y - (player_inst.y)))) < 10)
+		{
+			x = player_inst.x
+			y = player_inst.y
+			
+			speed = 0
+		} else {
+			show_debug_message(sqrt(sqr(abs(x - (player_inst.x))) + sqr(abs(y - (player_inst.y)))))
+			// the selected nodew will go towards and attach to the left side of the screen
+			direction = point_direction(x, y, player_inst.x, player_inst.y)
+			speed = 5
+		}
 	}
 	if(original_pos == false){
 		// set an origin point so that when esc is presseds it can return
