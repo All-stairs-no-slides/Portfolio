@@ -18,7 +18,7 @@ if(main.more_details && selected == true){
 	}
 	// seperate seperating lines
 	for(var _i = 1; _i < array_length(y_inters); _i++){
-		// animate lione extending
+		// animate lione extending 
 		if(line_lengths[_i] - line_speed > -(text_width  + 35)){
 			line_lengths[_i] -= line_speed
 			draw_line_width_color(x - line_lengths[_i], (y - y_inters[0]) + y_inters[_i], x, (y - y_inters[0]) + y_inters[_i], 3, shade, shade)

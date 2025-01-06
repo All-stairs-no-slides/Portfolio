@@ -107,9 +107,9 @@ if(_player != noone)
 	if(!main.more_details){
 		show_description = true
 	}
+	
 	// first come first serve methodology
-	if(main.selected_node == false){
-		show_debug_message("öi")
+	if(main.selected_node == false && show_description){
 		main.selected_node = id;
 		selected = true
 	}
@@ -122,6 +122,10 @@ if(_player != noone)
 		main.more_details = false
 		
 	}
+} else if(!main.more_details && selected)
+{
+	selected = false	
+	main.selected_node = false
 }
 // falloff & buildup
 if((speed < 2) && _inc)
@@ -174,7 +178,6 @@ if(main.more_details){
 			
 			speed = 0
 		} else {
-			show_debug_message(sqrt(sqr(abs(x - (player_inst.x))) + sqr(abs(y - (player_inst.y)))))
 			// the selected nodew will go towards and attach to the left side of the screen
 			direction = point_direction(x, y, player_inst.x, player_inst.y)
 			speed = 5

@@ -10,6 +10,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"title","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"For Our Continuation",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"shade","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFF07",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"description","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"This is a game that I started creating for a Pirate software game jam.",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"node_par_obj","path":"objects/node_par_obj/node_par_obj.yy",},"propertyId":{"name":"details_titles","path":"objects/node_par_obj/node_par_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Project title:\", \"Github link:\", \"Type of project:\", \"Background:\", \"Synopsis:\", \"Attained/improved skills:\"",},
   ],
   "parent":{
     "name":"nodes",
