@@ -25,6 +25,7 @@ line_lengths = array_create(1 + array_length(more_details), 0)
 
 // intersections along the main line for where a horisontal lines y position is
 y_inters = []
+y_inters[0] = 0 
 for(var _i = 1; _i < array_length(more_details) + 1; _i++)
 {
 	draw_set_font(description_fnt)
