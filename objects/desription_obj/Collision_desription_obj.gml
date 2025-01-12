@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(visible && !other.moving && !wall_col){
+if(visible && other.visible && !other.moving && !wall_col){
 	moving = true
 	//show_debug_message(node.titdle)
 	var _xdist = abs(x - other.x)
