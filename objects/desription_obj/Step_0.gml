@@ -3,6 +3,7 @@ if(node.show_description)
 	visible = true
 	if(!vis_pos)
 	{
+		demo_index = 0
 		//show_debug_message("hoi hoi hoi")
 		var _xdisplacement = 0
 		var _ydisplacement = 0

@@ -34,7 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"shade","filters":[],"listItems":[],"multiselect":false,"name":"shade","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"c_white","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"collection","filters":[],"listItems":[],"multiselect":false,"name":"collection","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"title","filters":[],"listItems":[],"multiselect":false,"name":"title","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"description","filters":[],"listItems":[],"multiselect":false,"name":"description","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"demo","filters":[],"listItems":[],"multiselect":false,"name":"demo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"selected","filters":[],"listItems":[],"multiselect":false,"name":"selected","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"details_titles","filters":[],"listItems":[
         "\"Project title:\"",

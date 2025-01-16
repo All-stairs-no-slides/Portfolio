@@ -6,9 +6,10 @@ draw_line_width_color((x + 50) + ((((x + ((sprite_width * image_xscale)/2)) < no
 draw_set_font(title_fnt)
 draw_text_ext(x + 50, y + 15, node.title, 15, 150)
 draw_set_font(description_fnt)
-draw_text_ext(x + 25, y + title_height + 20, node.description, 15, 150)
+
+draw_sprite_ext(node.demo, demo_index, x + 25, y + title_height + 20, scale, scale, 0, c_white, 1)
 
 if(node.selected){
 
-	draw_sprite(Press_E_spr, 0, x + 50, y + title_height + string_height_ext(node.description, 15, 150) + 20)
+	draw_sprite(Press_E_spr, 0, x + 50, y + (sprite_height - 65))
 }
